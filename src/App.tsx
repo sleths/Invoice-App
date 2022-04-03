@@ -1,5 +1,9 @@
+import InvoiceLayout from "./components/Layout/InvoiceLayout";
+
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <InvoiceLayout />
+  )
 }
 
 export default App;

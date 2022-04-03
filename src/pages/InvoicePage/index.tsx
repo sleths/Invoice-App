@@ -1,8 +1,13 @@
 import React from "react";
 
+import InvoiceButton from "../../components/Button/InvoiceButton";
+
 const InvoicePage: React.VFC = () => {
-  return(
- <h1>Hello world</h1>
-)};
+  return (
+    <div>
+      <InvoiceButton>Button</InvoiceButton>
+    </div>
+  );
+};
 
 export default InvoicePage;
